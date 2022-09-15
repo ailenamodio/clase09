@@ -1,0 +1,32 @@
+*{
+    background-color: pink;
+}
+
+.caja1{
+    width: 30vw;
+    height: 30vh;
+    border: black solid 2px;
+}
+/*pensar el @media como un css a parte*/
+
+@media only screen and (max-width: 650px){
+    *{
+        background-color: blueviolet;
+    }
+    .caja1{
+        background-color: crimson;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    *{
+        background-color: red;
+    }
+    .caja1{
+        background-color: chartreuse;
+    }
+    h1{
+        color: yellow;
+    }
+}
